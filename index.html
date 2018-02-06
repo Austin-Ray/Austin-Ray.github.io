@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="" type="image/png">
     <link rel="stylesheet" href="css/main.css">
+    <script rel="text/javascript" src="js/blazy.min.js"></script>
   </head>
-  <body class="bg">
+  <body>
     <div id="wrapper">
+      <div class="bg b-lazy" data-src="images/bg.png"></div>
       <div class="overlay"></div>
       <div id="main">
         <!-- Header -->
@@ -54,5 +56,10 @@
         </header>
       </div>
     </div>
+    <script>
+      ;(function() {
+        var bLazy = new Blazy();
+        })();
+      </script>
   </body>
 </html>

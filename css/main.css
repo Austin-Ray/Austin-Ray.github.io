@@ -129,13 +129,16 @@ a:hover {
 
 /* BG */
 .bg {
-  background: #607D8B bottom left;
   height: 100%;
   left: 0;
   opacity: 1;
   position: fixed;
   top: 0;
   width:100%;
+
+  background: url('../images/low_bg.png');
+  background-size: cover;
+  background-position: center center;
 }
 
 /* Overlay */
