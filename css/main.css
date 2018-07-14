@@ -2,7 +2,7 @@ ul.keys {
   text-align: left;
   line-height: 1em;
   margin-top: 0.2em;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 12pt;
 }
 
@@ -66,7 +66,7 @@ body {
 
 body, input, select, textarea {
   color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,Frutiger,"Frutiger Linotype", Univers,Calibri,"Gill Sans","Gill Sans MT","Myriad Pro",Myriad,"Nimbus Sans L","Liberation Sans",Tahoma,Geneva,sans-serif;
   font-size: 15pt;
   font-weight: 300 !important;
   letter-spacing: -0.025em;
