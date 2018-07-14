@@ -132,7 +132,7 @@ a:hover {
   top: 0;
   width:100%;
 
-  background: url('../images/low_bg.png');
+  background: url('../images/bg.svg');
   background-size: cover;
   background-position: center center;
 }
