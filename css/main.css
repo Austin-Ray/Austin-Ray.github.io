@@ -113,6 +113,11 @@ a:hover {
   display: none;
 }
 
+.icon img {
+  height: 36pt;
+  width: 36pt;
+}
+
 /* Wrapper */
 #wrapper {
   height: 100%;
