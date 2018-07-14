@@ -7,19 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <script>
-      WebFontConfig = {
-        google: {
-          families: ['Source Sans Pro', 'Source Code Pro']
-        }
-      };
-      (function(d) {
-        var wf = d.createElement('script'), s = d.scripts[0];
-        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-        s.parentNode.insertBefore(wf, s);
-      })(document);
-
       // Asynchronously load non-critical css
       function loadCSS(e, t, n) {
         "use strict";
@@ -31,17 +19,11 @@
         o.parentNode.insertBefore(i, o);
         setTimeout(function () { i.media = n || "all" })
       }
-
-      // load css file async
-      loadCSS("https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css");
-      loadCSS("https://use.fontawesome.com/releases/v5.1.0/css/solid.css");
-      loadCSS("https://use.fontawesome.com/releases/v5.1.0/css/regular.css");
-      loadCSS("https://use.fontawesome.com/releases/v5.1.0/css/brands.css");
     </script>
   </head>
   <body>
     <div id="wrapper">
-      <div class="bg b-lazy" data-src="images/bg.png"></div>
+      <div class="bg"></div>
       <div class="overlay"></div>
       <div id="main">
         <!-- Header -->
@@ -54,18 +36,18 @@
             <ul>
               <!-- Circular links -->
               <li>
-                <a href="https://github.com/austin-ray" class="icon fab fa-github" target="_blank">
-                  <span class="label">Github</span>
+                <a href="https://github.com/austin-ray" class="icon" target="_blank">
+                  <img label="GitHub" class="circle" src="images/github-logo.svg" />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/austindukeray" class="icon fab fa-linkedin-in" target="_blank">
-                  <span class="label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/austindukeray" class="icon" target="_blank">
+                  <img label="LinkedIn" class="circle" src="images/linkedin-logo.svg" />
                 </a>
               </li>
               <li>
-                <a href="mailto:austin@austinray.io" class="icon fas fa-envelope">
-                  <span class="label">Email</span>
+                <a href="mailto:austin@austinray.io" class="icon">
+                  <img label="Email" class="circle" src="images/email.svg" />
                 </a>
               </li>
             </ul>
@@ -86,10 +68,4 @@
         </header>
       </div>
     </div>
-    <script rel="text/javascript" src="js/blazy.min.js"></script>
-    <script>
-      ;(function() {
-        var bLazy = new Blazy();
-      })();
-    </script>
 </html>
