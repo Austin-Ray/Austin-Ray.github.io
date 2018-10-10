@@ -1,0 +1,74 @@
+body.loading * {
+  animation: none !important;
+}
+
+.overlay {
+  animation: overlay 2s forwards;
+  opacity: 0;
+}
+
+#header {
+  animation: header 0.5s forwards;
+  transform: translate3d(0,0,0);
+  opacity: 0;
+}
+
+#header nav li {
+  animation: nav-icons 0.5s ease-in-out forwards;
+  transform: translate3d(0,0,0);
+  opacity: 0;
+}
+
+#header nav li:nth-child(1) {
+  animation-delay: 0.25s;
+}
+
+#header nav li:nth-child(2) {
+  animation-delay: 0.50s;
+}
+
+#header nav li:nth-child(3) {
+  animation-delay: 0.75s;
+}
+
+/* Key-frames */
+/* Overlay */
+@keyframes overlay {
+  0% {
+    opacity: 0.0;
+  }
+
+  50% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1.0;
+  }
+}
+
+/* Header */
+@keyframes header {
+  0% {
+    transform: translate3d(0,1em,0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes nav-icons {
+  0% {
+    transform: translate3d(0,1em,0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  }
+}
