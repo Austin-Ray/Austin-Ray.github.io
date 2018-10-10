@@ -1,0 +1,19 @@
+ul.keys {
+  text-align: left;
+  line-height: 1em;
+  margin-top: 0.2em;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+}
+
+ul.keys li {
+  margin-bottom: 1.0em;
+}
+
+ul.keys span {
+  font-weight: 600;
+}
+
+ul.keys:last-of-type {
+  margin-bottom: 3em;
+}

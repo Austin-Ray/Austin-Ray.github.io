@@ -4,7 +4,6 @@ body.loading * {
 
 .overlay {
   animation: overlay 2s forwards;
-  opacity: 0;
 }
 
 #header {
