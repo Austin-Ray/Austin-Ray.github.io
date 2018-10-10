@@ -7,19 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
     <link rel="stylesheet" href="css/main.css">
-    <script>
-      // Asynchronously load non-critical css
-      function loadCSS(e, t, n) {
-        "use strict";
-        var i = window.document.createElement("link");
-        var o = t || window.document.getElementsByTagName("script")[0];
-        i.rel = "stylesheet";
-        i.href = e;
-        i.media = "only x";
-        o.parentNode.insertBefore(i, o);
-        setTimeout(function () { i.media = n || "all" })
-      }
-    </script>
   </head>
   <body>
     <div id="wrapper">
