@@ -1,0 +1,33 @@
+Date: 2019-04-04
+
+I am updating my PGP key to future-proof and unify my two outstanding
+PGP personal identity keys. The old keys will remain valid until
+sometime this month, but please use my new key.
+
+The old keys were:
+
+pub   2048R/684D8EB0 2017-04-09
+      Key fingerprint = 4706 D2EF CA78 DDEB F8FD  41FC CED5 E8D6 684D 8EB0
+
+pub   2048R/8CC34EA7 2017-03-28
+      Key fingerprint = 478E C808 8C3B D738 ACF6  3E05 FC71 593E 8CC3 4EA7
+
+And the new key is:
+
+pub   256E/C8AC2C9E 2019-04-04 [expires: 2021-04-03]
+      Key fingerprint = 0127 ED83 B939 CCC9 8082  476E 1AA0 B115 C8AC 2C9E
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg --check-sigs '0127ED83B939CCC98082476E1AA0B115C8AC2C9E'
+
+If you don't already know my old key, or you just want to be double
+extra paranoid, you can check the fingerprint against the one above:
+
+  gpg --fingerprint '0127ED83B939CCC98082476E1AA0B115C8AC2C9E'
+
+Please let me know if you have any questions, or problems, and sorry
+for the inconvenience.
+
+Austin Ray
